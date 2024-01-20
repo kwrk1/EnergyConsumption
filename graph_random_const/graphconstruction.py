@@ -10,8 +10,10 @@ def random_graph(node_count, max_degree, max_wght):
         graph[str(i)] = []
     
     for i in range(0, node_count):
+        weight = str(rand.randrange(0, max_wght))
+        
+        # special case, connect last node to first node to have circle graph 
         if i == node_count - 1:
-            weight = str(rand.randrange(0, max_wght))
             graph[str(i)].append([
                 str(0), 
                 weight
@@ -20,8 +22,7 @@ def random_graph(node_count, max_degree, max_wght):
                 str(node_count - 1), 
                 weight
             ])
-        else:  
-            weight = str(rand.randrange(0, max_wght))
+        else: 
             graph[str(i)].append([
                 str(i+1), 
                 weight
@@ -43,35 +44,62 @@ def random_graph(node_count, max_degree, max_wght):
 
 # add random edges to other nodes in the graph
 def add_edge(graph, node, max_degree, max_wght):
+    
+    # if max degree, return
     if len(graph[node]) == max_degree:
         return graph
     
+    # if edge can be added, check if there are potential neighbors
     elif len(graph[node]) < max_degree:
-        # try to find an elible node for connection a few times
+        
         for i in range(0, 10):
             rand_node = str(rand.randrange(0, len(graph)))
-            if len(graph[rand_node]) == max_degree and rand_node != node:
-                continue
-            elif len(graph[rand_node]) < max_degree and rand_node != node:
-                break
             
-        rand_wght = str(rand.randrange(0, max_wght))
+            # if number of neighbors is alrdy max, continue
+            if (len(graph[rand_node]) == max_degree):
+                continue
+            
+            # else if its not max, check if the potential neighbors are valid
+            elif (len(graph[rand_node]) < max_degree):
+                if (
+                    node != rand_node and
+                    check_valid_neighbor(graph[node], rand_node)
+                    ):
+                        rand_wght = str(rand.randrange(0, max_wght))
         
-        # if nodes are fine, add edges to both nodes, including the same weight
-        graph[node].append([
-            rand_node,
-            rand_wght
-            ])
+                        # if nodes are fine, add edges to both nodes, including the same weight
+                        graph[node].append([
+                            rand_node,
+                            rand_wght
+                            ])
+                        
+                        graph[rand_node].append([
+                            node,
+                            rand_wght
+                        ])
+                        
+                        return graph
+                        break
+            
         
-        graph[rand_node].append([
-            node,
-            rand_wght
-        ])
+    
+    
     elif len(graph[node]) > max_degree:
         return ValueError
     
     return graph
 
+# check if the potential neighbor node is already a neighbor
+def check_valid_neighbor(neighbors, potential_neighbor):
+    neighbor_list = []
+    
+    for neighbor in neighbors:
+        neighbor_list.append(neighbor[0])
+    
+    if potential_neighbor in neighbor_list:
+        return False
+    return True
+        
 # remove random edges if possible.
 # 1. iterate through list in numerical order
 # 2. then, check if edges to a node with a greater number exist. 
@@ -108,7 +136,7 @@ def print_graph(graph):
         print(graph[node])
     
 def main():
-    graph = random_graph(5, 3, 20)
+    graph = random_graph(10, 5, 20)
     print_graph(graph)
     return
 
