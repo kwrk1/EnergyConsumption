@@ -1,5 +1,11 @@
 from typing import List
+import pyRAPL
 
+
+pyRAPL.setup()
+
+
+@pyRAPL.measureit
 def SieveOfErathosthenes(n: int):
     primes = [True] * (n+1)
     p = 2
@@ -16,7 +22,7 @@ def SieveOfErathosthenes(n: int):
             print(p)
 
 def main():
-    SieveOfErathosthenes(10)
+    SieveOfErathosthenes(100)
 
 if __name__ == "__main__":
     main()
