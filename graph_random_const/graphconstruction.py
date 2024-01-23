@@ -1,7 +1,8 @@
 import random as rand
 
+
 # TODO : remove duplicate edges, we dont want nodes to have multiple edges to one another necessarily
-# make random weighted undirected graph 
+# make random weighted undirected graph
 # graphs have keys: node names, and edges w/ weights in their values (as lists)
 def random_graph(node_count, max_degree, max_wght):
     # init graph dict, make sure all nodes are connected
@@ -12,23 +13,23 @@ def random_graph(node_count, max_degree, max_wght):
     for i in range(0, node_count):
         weight = str(rand.randrange(0, max_wght))
         
-        # special case, connect last node to first node to have circle graph 
+        # special case, connect last node to first node to have circle graph
         if i == node_count - 1:
             graph[str(i)].append([
-                str(0), 
+                str(0),
                 weight
             ])
             graph[str(0)].append([
-                str(node_count - 1), 
+                str(node_count - 1),
                 weight
             ])
-        else: 
+        else:
             graph[str(i)].append([
-                str(i+1), 
+                str(i+1),
                 weight
             ])
             graph[str(i+1)].append([
-                str(i), 
+                str(i),
                 weight
             ])
     
@@ -79,10 +80,6 @@ def add_edge(graph, node, max_degree, max_wght):
                         ])
                         
                         return graph
-                        break
-            
-        
-    
     
     elif len(graph[node]) > max_degree:
         return ValueError
@@ -102,7 +99,7 @@ def check_valid_neighbor(neighbors, potential_neighbor):
         
 # remove random edges if possible.
 # 1. iterate through list in numerical order
-# 2. then, check if edges to a node with a greater number exist. 
+# 2. then, check if edges to a node with a greater number exist.
 # 3. check if the bigger node has other edges to lower nodes
 # 3.1 if yes: roll dice to delete og_node -> bigger_node and bigger_node -> og_node
 # 3.2 if no: repeat 2. with other nodes
@@ -117,8 +114,8 @@ def remove_edges(graph):
                     rand.random() >= 0.5            and
                     check_edges(edge[0], graph[edge[0]])
                     ):
-                    graph[node].remove(edge)  
-                    graph[edge[0]].remove([node,edge[1]])  
+                    graph[node].remove(edge)
+                    graph[edge[0]].remove([node,edge[1]])
     return graph
 
 # check for lower nodes in edge list
@@ -126,7 +123,7 @@ def check_edges(node, edges):
     for edge in edges:
         # check that connections to previous nodes exist that arent the direct predecessor
         if (int(node) != int(edge[0]) and
-            int(node) > int(edge[0])): 
+            int(node) > int(edge[0])):
             return True
     return False
 
@@ -141,4 +138,4 @@ def main():
     return
 
 if __name__ == "__main__":
-    main() 
+    main()
