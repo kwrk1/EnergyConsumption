@@ -1,5 +1,3 @@
-package Quicksort;
-
 public class qsort {
     
     public static void qsort1(int elements[], int left, int right){

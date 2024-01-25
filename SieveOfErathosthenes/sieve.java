@@ -1,5 +1,3 @@
-package SieveOfErathosthenes;
-
 public class sieve {
 
     public static void SieveOfErathosthenes(int n){
