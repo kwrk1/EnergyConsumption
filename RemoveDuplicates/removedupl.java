@@ -1,5 +1,3 @@
-package RemoveDuplicates;
-
 import java.util.*;
 
 public class removedupl {

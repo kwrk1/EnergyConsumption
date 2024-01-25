@@ -1,5 +1,3 @@
-package NQueens;
-
 public class nqueens {
     public static void printSolution(int board[][]){
         for (int i = 0; i < board.length; i++) {

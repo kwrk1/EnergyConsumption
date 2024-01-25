@@ -1,5 +1,3 @@
-package matrixmult;
-
 public class matrixmult {
 
 

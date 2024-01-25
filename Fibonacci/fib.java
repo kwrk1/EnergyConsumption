@@ -1,5 +1,3 @@
-package Fibonacci;
-
 public class fib {
 
     public int fibonacci(int n) {
