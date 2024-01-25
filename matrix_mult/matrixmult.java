@@ -1,4 +1,4 @@
-package matrixmult;
+package matrix_mult;
 
 public class matrixmult {
 

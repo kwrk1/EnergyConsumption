@@ -1,4 +1,4 @@
-package graph_random_const;
+package graph_dijkstra;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -55,7 +55,7 @@ class graphconstruction {
             if (this.graph.get(node).size() == max_degree) {
                 return;
             } else if (this.graph.get(node).size() < max_degree) {
-                System.out.println(this.graph.get(node).size() + " ");
+                //System.out.println(this.graph.get(node).size() + " ");
                             
                 for (int i = 0; i < 10; i++) 
                 {
@@ -71,8 +71,7 @@ class graphconstruction {
                         check_valid_neighbors(this.graph.get(node), rand_node)
                         ) 
                         { 
-                            System.out.println(this.graph.get(node).size() + " " + this.graph.get(rand_node).size() );
-                            
+                            //System.out.println(this.graph.get(node).size() + " " + this.graph.get(rand_node).size() );
                             int rand_weight = ThreadLocalRandom.current().nextInt(0, max_weight + 1);
                             Edge new_edge = new Edge(node, rand_node, rand_weight);
     
