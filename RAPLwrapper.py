@@ -63,19 +63,19 @@ def main():
     
     for entry in test_dict:
         
-        file = test_dict[entry] + "_c.txt"
+        file = "results/" + test_dict[entry] + "/" + test_dict[entry] + "_c.txt"
         f = open(file, "w")
         sys.stdout = f
         for i in range(0, 101):
             run_c(entry, test_dict[entry])
 
-        file = test_dict[entry] + "_java.txt"
+        file = "results/" + test_dict[entry] + "/" + test_dict[entry] + "_java.txt"
         f = open(file, "w")
         sys.stdout = f
         for i in range(0, 101):
             run_java(entry, test_dict[entry])
 
-        file = test_dict[entry] + "_py.txt"
+        file = "results/" + test_dict[entry] + "/" + test_dict[entry] + "_py.txt"
         f = open(file, "w")
         sys.stdout = f
         for i in range(0, 101):
