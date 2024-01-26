@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-#include "../graph_random_const/graphconstruction.h"
+#include "graphconstruction.h"
 
 typedef struct DijkstraNode 
 {

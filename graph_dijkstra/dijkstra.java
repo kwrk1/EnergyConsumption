@@ -1,11 +1,6 @@
-package graph_dijkstra;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
-import graph_dijkstra.graphconstruction.Edge;
-import graph_dijkstra.graphconstruction.Graph;
 
 public class dijkstra {
 
@@ -46,7 +41,7 @@ public class dijkstra {
             
             return min_node;
     }
-    public static HashMap<String, DijkstraNode> dijkstra(Graph graph, int max_weight) {
+    public static HashMap<String, DijkstraNode> dijkstra(graphconstruction.Graph graph, int max_weight) {
 
         int node_count = graph.graph.size();
         HashMap<String, DijkstraNode> result_dict = new HashMap<String, DijkstraNode>();
@@ -81,7 +76,7 @@ public class dijkstra {
             }
 
             // check neighbors of min node and update those
-            for (Edge i : graph.graph.get(min_node_id)) {
+            for (graphconstruction.Edge i : graph.graph.get(min_node_id)) {
                 
                 String neighbor = i.node1;
                 if (i.node1.equals(min_node_id)) {
@@ -102,11 +97,11 @@ public class dijkstra {
 
 
     public static void main(String[] args) {
-        Graph graph = graphconstruction.random_graph(10, 3, 20);
+        graphconstruction.Graph graph = graphconstruction.random_graph(10, 3, 20);
         for (int i = 0; i < 10; i++) {
             System.out.println("cur_node " + i);
             for (int j = 0; j < graph.graph.get(Integer.toString(i)).size(); j++) {
-                Edge cur_edge = graph.graph.get(Integer.toString(i)).get(j);
+                graphconstruction.Edge cur_edge = graph.graph.get(Integer.toString(i)).get(j);
                 System.out.print(cur_edge.node1 + " " + cur_edge.node2 + " " + cur_edge.weight);
                 System.out.println("");
             }

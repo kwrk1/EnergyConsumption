@@ -25,9 +25,15 @@ def run_java(folder, name):
     subprocess.run(["/bin/java", "-cp", path, name], stdout=open(os.devnull, 'wb'))
 
 def compile_run_c(folder, name):
-    path = folder + "/" + name + ".c"
-    out_dir = folder + "/" + name
-    subprocess.run(["/bin/gcc", path, "-o", out_dir])
+    if name == "dijkstra":
+        path1 = folder + "/" + name + ".c"
+        path2 = folder + "/" + "graphconstruction.c"
+        out_dir = folder + "/" + name
+        subprocess.run(["/bin/gcc", path1, path2, "-o", out_dir])
+    else:
+        path = folder + "/" + name + ".c"
+        out_dir = folder + "/" + name
+        subprocess.run(["/bin/gcc", path, "-o", out_dir])
     run_c(folder, name)
 
 
@@ -52,8 +58,8 @@ def main():
         'Fibonacci'             : 'fib',
     }
     
-    folder = "graph_random_const"
-    name = "graphconstuction"
+    folder = "graph_dijkstra"
+    name = "dijkstra"
     compile_run_c(folder, name)
     compile_run_java(folder, name)
     run_py(folder, name)
