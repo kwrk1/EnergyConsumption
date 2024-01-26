@@ -1,6 +1,8 @@
-import os
+import os, sys
 import subprocess
 from typing import List
+from os import path
+
 
 import pyRAPL
 
@@ -58,11 +60,24 @@ def main():
         'Fibonacci'             : 'fib',
     }
     
-    folder = "Fibonacci"
-    name = "fib"
-    run_c(folder, name)
-    run_java(folder, name)
-    run_py(folder, name)
+    for entry in test_dict:
+        file = test_dict[entry] + "_c.txt"
+        f = open(file, "w")
+        sys.stdout = f
+        for i in range(0, 101):
+            run_c(entry, test_dict[entry])
+
+        file = test_dict[entry] + "_java.txt"
+        f = open(file, "w")
+        sys.stdout = f
+        for i in range(0, 101):
+            run_java(entry, test_dict[entry])
+
+        file = test_dict[entry] + "_py.txt"
+        f = open(file, "w")
+        sys.stdout = f
+        for i in range(0, 101):
+            run_py(entry, test_dict[entry])
 
 if __name__ == "__main__":
     main()
