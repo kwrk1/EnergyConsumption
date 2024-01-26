@@ -58,10 +58,10 @@ def main():
         'Fibonacci'             : 'fib',
     }
     
-    folder = "graph_dijkstra"
-    name = "dijkstra"
-    compile_run_c(folder, name)
-    compile_run_java(folder, name)
+    folder = "Fibonacci"
+    name = "fib"
+    run_c(folder, name)
+    run_java(folder, name)
     run_py(folder, name)
 
 if __name__ == "__main__":
