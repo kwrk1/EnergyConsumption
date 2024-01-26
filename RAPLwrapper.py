@@ -1,8 +1,10 @@
-import os, sys
+import os
+import shutil
 import subprocess
-from typing import List
+import sys
 from os import path
-
+from pathlib import Path
+from typing import List
 
 import pyRAPL
 
@@ -61,6 +63,13 @@ def main():
     }
     
     for entry in test_dict:
+        
+        # make folder for current run if it doesnt already exist
+        path = Path('results/' + entry)
+        if os.path.exists(path):
+            shutil.rmtree(path) 
+        os.mkdir(path) 
+        
         file = test_dict[entry] + "_c.txt"
         f = open(file, "w")
         sys.stdout = f
