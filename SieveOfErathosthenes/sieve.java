@@ -25,6 +25,6 @@ public class sieve {
 
     }
     public static void main(String[] args){                                                                                                                                                                                                                                                                                     
-        SieveOfErathosthenes(10);
+        SieveOfErathosthenes(1000000);
     }
 }

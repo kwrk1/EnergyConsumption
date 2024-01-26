@@ -6,7 +6,7 @@ def fib(n: int) -> int:
 
 
 def main():
-    print(fib(6))
+    print(fib(35))
 
 if __name__ == "__main__":
     main()

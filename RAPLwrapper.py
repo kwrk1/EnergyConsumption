@@ -10,25 +10,24 @@ import pyRAPL
 
 pyRAPL.setup()
 
-
 @pyRAPL.measureit
 def run_py(folder, name):
     path = folder + "/" + name + ".py"
     subprocess.run(["/bin/python3", path], stdout=open(os.devnull, 'wb'))
     return 0
 
-def compile_run_java(folder, name):
-    path = folder + "/" + name + ".java"
-    out_dir = folder + "/"
-    subprocess.run(["/bin/javac", path, "-d", out_dir])
-    run_java(folder, name)
+#silent funkt hier nicht
+@pyRAPL.measureit
+def run_c(folder, name):
+    path = folder + "/" + name
+    subprocess.run(path, stdout=open(os.devnull, 'wb'))
 
 @pyRAPL.measureit
 def run_java(folder, name):
     path = folder + "/" 
     subprocess.run(["/bin/java", "-cp", path, name], stdout=open(os.devnull, 'wb'))
 
-def compile_run_c(folder, name):
+def compile_c(folder, name):
     if name == "dijkstra":
         path1 = folder + "/" + name + ".c"
         path2 = folder + "/" + "graphconstruction.c"
@@ -38,18 +37,18 @@ def compile_run_c(folder, name):
         path = folder + "/" + name + ".c"
         out_dir = folder + "/" + name
         subprocess.run(["/bin/gcc", path, "-o", out_dir])
-    run_c(folder, name)
 
+def compile_java(folder, name):
+    path = folder + "/" + name + ".java"
+    out_dir = folder + "/"
+    subprocess.run(["/bin/javac", path, "-d", out_dir])
+    
 
-#silent funkt hier nicht
-@pyRAPL.measureit
-def run_c(folder, name):
-    path = folder + "/" + name
-    subprocess.run(path, stdout=open(os.devnull, 'wb'))
+def compile_everything(dict):
+    for entry in dict:
+        compile_c(entry, dict[entry])
+        compile_java(entry, dict[entry])
 
-
-#energy cost varieren häufig vllt 100 mal messen?
-#folder, names für alle in dict speichern
 def main():
     test_dict = {
         'SieveOfErathosthenes'  : 'sieve',
@@ -81,6 +80,7 @@ def main():
         sys.stdout = f
         for i in range(0, 101):
             run_py(entry, test_dict[entry])
+
 
 if __name__ == "__main__":
     main()

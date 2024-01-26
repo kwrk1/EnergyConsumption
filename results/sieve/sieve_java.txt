@@ -1,1009 +1,999 @@
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 48387.6940 us
+Begin : Fri Jan 26 15:23:19 2024
+Duration : 661286.9060 us
 -------------------------------
 PKG :
-	socket 0 :  2855931.0000 uJ
+	socket 0 :  38752375.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 44901.7130 us
+Begin : Fri Jan 26 15:23:19 2024
+Duration : 315940.8410 us
 -------------------------------
 PKG :
-	socket 0 :  2615466.0000 uJ
+	socket 0 :  24204010.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 43793.5980 us
+Begin : Fri Jan 26 15:23:20 2024
+Duration : 332665.6820 us
 -------------------------------
 PKG :
-	socket 0 :  2629411.0000 uJ
+	socket 0 :  22866096.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 43429.1170 us
+Begin : Fri Jan 26 15:23:20 2024
+Duration : 347400.6810 us
 -------------------------------
 PKG :
-	socket 0 :  2481256.0000 uJ
+	socket 0 :  24721027.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 46119.8760 us
+Begin : Fri Jan 26 15:23:20 2024
+Duration : 320677.4800 us
 -------------------------------
 PKG :
-	socket 0 :  2691236.0000 uJ
+	socket 0 :  24955191.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 44914.0710 us
+Begin : Fri Jan 26 15:23:21 2024
+Duration : 390119.2410 us
 -------------------------------
 PKG :
-	socket 0 :  2661484.0000 uJ
+	socket 0 :  30490779.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 45228.0030 us
+Begin : Fri Jan 26 15:23:21 2024
+Duration : 377676.9120 us
 -------------------------------
 PKG :
-	socket 0 :  2552679.0000 uJ
+	socket 0 :  29383276.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 45241.4130 us
+Begin : Fri Jan 26 15:23:22 2024
+Duration : 354765.4870 us
 -------------------------------
 PKG :
-	socket 0 :  2753886.0000 uJ
+	socket 0 :  25419966.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 44370.4700 us
+Begin : Fri Jan 26 15:23:22 2024
+Duration : 358991.0880 us
 -------------------------------
 PKG :
-	socket 0 :  2619661.0000 uJ
+	socket 0 :  26447515.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 40862.6480 us
+Begin : Fri Jan 26 15:23:22 2024
+Duration : 292001.2080 us
 -------------------------------
 PKG :
-	socket 0 :  2256475.0000 uJ
+	socket 0 :  22228617.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 46773.7680 us
+Begin : Fri Jan 26 15:23:23 2024
+Duration : 339119.8550 us
 -------------------------------
 PKG :
-	socket 0 :  2497536.0000 uJ
+	socket 0 :  25285573.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 40842.9980 us
+Begin : Fri Jan 26 15:23:23 2024
+Duration : 336547.6260 us
 -------------------------------
 PKG :
-	socket 0 :  2240912.0000 uJ
+	socket 0 :  24783600.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 40845.6980 us
+Begin : Fri Jan 26 15:23:23 2024
+Duration : 315116.8160 us
 -------------------------------
 PKG :
-	socket 0 :  2185541.0000 uJ
+	socket 0 :  22701905.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 42260.6230 us
+Begin : Fri Jan 26 15:23:24 2024
+Duration : 363016.9840 us
 -------------------------------
 PKG :
-	socket 0 :  2188684.0000 uJ
+	socket 0 :  26886702.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 41526.9710 us
+Begin : Fri Jan 26 15:23:24 2024
+Duration : 314600.6130 us
 -------------------------------
 PKG :
-	socket 0 :  2294361.0000 uJ
+	socket 0 :  22890418.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 43187.5960 us
+Begin : Fri Jan 26 15:23:24 2024
+Duration : 331034.1340 us
 -------------------------------
 PKG :
-	socket 0 :  2465723.0000 uJ
+	socket 0 :  23930037.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 41680.6210 us
+Begin : Fri Jan 26 15:23:25 2024
+Duration : 294354.0420 us
 -------------------------------
 PKG :
-	socket 0 :  2249563.0000 uJ
+	socket 0 :  20675108.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 40800.0880 us
+Begin : Fri Jan 26 15:23:25 2024
+Duration : 311992.4220 us
 -------------------------------
 PKG :
-	socket 0 :  2159663.0000 uJ
+	socket 0 :  24508453.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 38170.9790 us
+Begin : Fri Jan 26 15:23:25 2024
+Duration : 297554.3720 us
 -------------------------------
 PKG :
-	socket 0 :  2110578.0000 uJ
+	socket 0 :  22363620.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 42380.4440 us
+Begin : Fri Jan 26 15:23:25 2024
+Duration : 338135.7900 us
 -------------------------------
 PKG :
-	socket 0 :  2340074.0000 uJ
+	socket 0 :  24849117.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 40378.8170 us
+Begin : Fri Jan 26 15:23:26 2024
+Duration : 340868.4800 us
 -------------------------------
 PKG :
-	socket 0 :  2218483.0000 uJ
+	socket 0 :  24703236.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 40845.7690 us
+Begin : Fri Jan 26 15:23:26 2024
+Duration : 303950.4300 us
 -------------------------------
 PKG :
-	socket 0 :  2220207.0000 uJ
+	socket 0 :  24064231.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 36346.1420 us
+Begin : Fri Jan 26 15:23:26 2024
+Duration : 333163.1680 us
 -------------------------------
 PKG :
-	socket 0 :  2105726.0000 uJ
+	socket 0 :  24724842.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:46 2024
-Duration : 40286.4370 us
+Begin : Fri Jan 26 15:23:27 2024
+Duration : 329839.2180 us
 -------------------------------
 PKG :
-	socket 0 :  2244482.0000 uJ
+	socket 0 :  23575395.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 44209.3890 us
+Begin : Fri Jan 26 15:23:27 2024
+Duration : 376709.5580 us
 -------------------------------
 PKG :
-	socket 0 :  2600726.0000 uJ
+	socket 0 :  26249848.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 44374.4200 us
+Begin : Fri Jan 26 15:23:27 2024
+Duration : 331216.0160 us
 -------------------------------
 PKG :
-	socket 0 :  2883213.0000 uJ
+	socket 0 :  25401762.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 45850.0760 us
+Begin : Fri Jan 26 15:23:28 2024
+Duration : 325102.7270 us
 -------------------------------
 PKG :
-	socket 0 :  3169636.0000 uJ
+	socket 0 :  25027972.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 48612.2440 us
+Begin : Fri Jan 26 15:23:28 2024
+Duration : 319254.5060 us
 -------------------------------
 PKG :
-	socket 0 :  3459538.0000 uJ
+	socket 0 :  22225230.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 43957.9890 us
+Begin : Fri Jan 26 15:23:28 2024
+Duration : 335448.6960 us
 -------------------------------
 PKG :
-	socket 0 :  2776636.0000 uJ
+	socket 0 :  25454327.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 42267.8230 us
+Begin : Fri Jan 26 15:23:29 2024
+Duration : 309405.2240 us
 -------------------------------
 PKG :
-	socket 0 :  2394636.0000 uJ
+	socket 0 :  22843804.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 42856.8650 us
+Begin : Fri Jan 26 15:23:29 2024
+Duration : 330320.3850 us
 -------------------------------
 PKG :
-	socket 0 :  2479959.0000 uJ
+	socket 0 :  24434772.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 43801.0180 us
+Begin : Fri Jan 26 15:23:29 2024
+Duration : 309567.2140 us
 -------------------------------
 PKG :
-	socket 0 :  2393034.0000 uJ
+	socket 0 :  21862166.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 46619.0080 us
+Begin : Fri Jan 26 15:23:30 2024
+Duration : 333768.4520 us
 -------------------------------
 PKG :
-	socket 0 :  2580464.0000 uJ
+	socket 0 :  24461213.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 48751.3950 us
+Begin : Fri Jan 26 15:23:30 2024
+Duration : 300042.5450 us
 -------------------------------
 PKG :
-	socket 0 :  2673857.0000 uJ
+	socket 0 :  21408912.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 45750.8050 us
+Begin : Fri Jan 26 15:23:30 2024
+Duration : 327491.1520 us
 -------------------------------
 PKG :
-	socket 0 :  2513451.0000 uJ
+	socket 0 :  24278957.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 40777.8780 us
+Begin : Fri Jan 26 15:23:31 2024
+Duration : 322776.8600 us
 -------------------------------
 PKG :
-	socket 0 :  2369964.0000 uJ
+	socket 0 :  22166807.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 42891.6450 us
+Begin : Fri Jan 26 15:23:31 2024
+Duration : 345342.3110 us
 -------------------------------
 PKG :
-	socket 0 :  2370147.0000 uJ
+	socket 0 :  26769642.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 41756.8010 us
+Begin : Fri Jan 26 15:23:31 2024
+Duration : 318821.9700 us
 -------------------------------
 PKG :
-	socket 0 :  2355667.0000 uJ
+	socket 0 :  22635152.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 41154.9390 us
+Begin : Fri Jan 26 15:23:32 2024
+Duration : 308924.9810 us
 -------------------------------
 PKG :
-	socket 0 :  2294437.0000 uJ
+	socket 0 :  23102809.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 45699.7640 us
+Begin : Fri Jan 26 15:23:32 2024
+Duration : 350034.7980 us
 -------------------------------
 PKG :
-	socket 0 :  2474466.0000 uJ
+	socket 0 :  29333139.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 39021.3320 us
+Begin : Fri Jan 26 15:23:32 2024
+Duration : 341267.5390 us
 -------------------------------
 PKG :
-	socket 0 :  2158641.0000 uJ
+	socket 0 :  25911288.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 40089.7560 us
+Begin : Fri Jan 26 15:23:33 2024
+Duration : 311103.5180 us
 -------------------------------
 PKG :
-	socket 0 :  2168955.0000 uJ
+	socket 0 :  22294791.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 39564.5540 us
+Begin : Fri Jan 26 15:23:33 2024
+Duration : 325381.3970 us
 -------------------------------
 PKG :
-	socket 0 :  2088606.0000 uJ
+	socket 0 :  24011408.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 39594.2640 us
+Begin : Fri Jan 26 15:23:33 2024
+Duration : 320409.9390 us
 -------------------------------
 PKG :
-	socket 0 :  2126218.0000 uJ
+	socket 0 :  22174543.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 40295.8470 us
+Begin : Fri Jan 26 15:23:34 2024
+Duration : 343139.0640 us
 -------------------------------
 PKG :
-	socket 0 :  2249685.0000 uJ
+	socket 0 :  25147366.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 42168.1230 us
+Begin : Fri Jan 26 15:23:34 2024
+Duration : 329712.3350 us
 -------------------------------
 PKG :
-	socket 0 :  2236182.0000 uJ
+	socket 0 :  25312396.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:47 2024
-Duration : 41934.9720 us
+Begin : Fri Jan 26 15:23:34 2024
+Duration : 339200.9550 us
 -------------------------------
 PKG :
-	socket 0 :  2297794.0000 uJ
+	socket 0 :  25091049.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 41161.7890 us
+Begin : Fri Jan 26 15:23:35 2024
+Duration : 331776.3650 us
 -------------------------------
 PKG :
-	socket 0 :  2273961.0000 uJ
+	socket 0 :  23515858.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 45632.4840 us
+Begin : Fri Jan 26 15:23:35 2024
+Duration : 341401.3820 us
 -------------------------------
 PKG :
-	socket 0 :  2353424.0000 uJ
+	socket 0 :  24645851.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 43114.9660 us
+Begin : Fri Jan 26 15:23:35 2024
+Duration : 311185.1450 us
 -------------------------------
 PKG :
-	socket 0 :  2494302.0000 uJ
+	socket 0 :  22720840.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 49060.3460 us
+Begin : Fri Jan 26 15:23:36 2024
+Duration : 326997.4530 us
 -------------------------------
 PKG :
-	socket 0 :  2603549.0000 uJ
+	socket 0 :  24362678.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 40478.3670 us
+Begin : Fri Jan 26 15:23:36 2024
+Duration : 302589.7830 us
 -------------------------------
 PKG :
-	socket 0 :  2282429.0000 uJ
+	socket 0 :  23267519.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 45660.0640 us
+Begin : Fri Jan 26 15:23:36 2024
+Duration : 369634.4490 us
 -------------------------------
 PKG :
-	socket 0 :  2502129.0000 uJ
+	socket 0 :  29264280.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 40698.2080 us
+Begin : Fri Jan 26 15:23:37 2024
+Duration : 334755.5110 us
 -------------------------------
 PKG :
-	socket 0 :  2133556.0000 uJ
+	socket 0 :  23370495.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 41211.5000 us
+Begin : Fri Jan 26 15:23:37 2024
+Duration : 358846.0190 us
 -------------------------------
 PKG :
-	socket 0 :  2291996.0000 uJ
+	socket 0 :  26655665.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 43407.5960 us
+Begin : Fri Jan 26 15:23:37 2024
+Duration : 371371.6070 us
 -------------------------------
 PKG :
-	socket 0 :  2410093.0000 uJ
+	socket 0 :  26587645.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 43278.4950 us
+Begin : Fri Jan 26 15:23:38 2024
+Duration : 321684.9090 us
 -------------------------------
 PKG :
-	socket 0 :  2357483.0000 uJ
+	socket 0 :  22894568.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 46517.0780 us
+Begin : Fri Jan 26 15:23:38 2024
+Duration : 339158.4670 us
 -------------------------------
 PKG :
-	socket 0 :  2426800.0000 uJ
+	socket 0 :  25506295.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 42654.1040 us
+Begin : Fri Jan 26 15:23:38 2024
+Duration : 307683.6810 us
 -------------------------------
 PKG :
-	socket 0 :  2290333.0000 uJ
+	socket 0 :  22564049.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 44106.1790 us
+Begin : Fri Jan 26 15:23:39 2024
+Duration : 345040.6550 us
 -------------------------------
 PKG :
-	socket 0 :  2395994.0000 uJ
+	socket 0 :  26224566.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 40769.9680 us
+Begin : Fri Jan 26 15:23:39 2024
+Duration : 291783.7090 us
 -------------------------------
 PKG :
-	socket 0 :  2232123.0000 uJ
+	socket 0 :  21387413.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 43759.9280 us
+Begin : Fri Jan 26 15:23:39 2024
+Duration : 304314.5490 us
 -------------------------------
 PKG :
-	socket 0 :  2318987.0000 uJ
+	socket 0 :  22805446.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 41141.3590 us
+Begin : Fri Jan 26 15:23:40 2024
+Duration : 325294.2150 us
 -------------------------------
 PKG :
-	socket 0 :  2249136.0000 uJ
+	socket 0 :  24833891.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 46365.5170 us
+Begin : Fri Jan 26 15:23:40 2024
+Duration : 326489.5560 us
 -------------------------------
 PKG :
-	socket 0 :  2415952.0000 uJ
+	socket 0 :  22498119.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 44828.2510 us
+Begin : Fri Jan 26 15:23:40 2024
+Duration : 306414.2570 us
 -------------------------------
 PKG :
-	socket 0 :  2460276.0000 uJ
+	socket 0 :  21795015.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 39861.5950 us
+Begin : Fri Jan 26 15:23:41 2024
+Duration : 314241.1750 us
 -------------------------------
 PKG :
-	socket 0 :  2226753.0000 uJ
+	socket 0 :  22516506.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 42447.8640 us
+Begin : Fri Jan 26 15:23:41 2024
+Duration : 337268.6030 us
 -------------------------------
 PKG :
-	socket 0 :  2352265.0000 uJ
+	socket 0 :  23712808.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 45325.5730 us
+Begin : Fri Jan 26 15:23:41 2024
+Duration : 317998.8840 us
 -------------------------------
 PKG :
-	socket 0 :  2361450.0000 uJ
+	socket 0 :  24677328.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 43145.6060 us
+Begin : Fri Jan 26 15:23:42 2024
+Duration : 297265.4750 us
 -------------------------------
 PKG :
-	socket 0 :  2339250.0000 uJ
+	socket 0 :  21437490.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:48 2024
-Duration : 40781.5480 us
+Begin : Fri Jan 26 15:23:42 2024
+Duration : 299890.8530 us
 -------------------------------
 PKG :
-	socket 0 :  2207359.0000 uJ
+	socket 0 :  22191342.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 42470.6630 us
+Begin : Fri Jan 26 15:23:42 2024
+Duration : 308485.3130 us
 -------------------------------
 PKG :
-	socket 0 :  2315158.0000 uJ
+	socket 0 :  22118210.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 43419.5970 us
+Begin : Fri Jan 26 15:23:42 2024
+Duration : 360822.6490 us
 -------------------------------
 PKG :
-	socket 0 :  2369140.0000 uJ
+	socket 0 :  25587361.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 44127.3690 us
+Begin : Fri Jan 26 15:23:43 2024
+Duration : 340207.6680 us
 -------------------------------
 PKG :
-	socket 0 :  2392714.0000 uJ
+	socket 0 :  25540504.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 38525.6310 us
+Begin : Fri Jan 26 15:23:43 2024
+Duration : 313131.7220 us
 -------------------------------
 PKG :
-	socket 0 :  2168116.0000 uJ
+	socket 0 :  23215123.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 40706.2550 us
+Begin : Fri Jan 26 15:23:43 2024
+Duration : 328797.7790 us
 -------------------------------
 PKG :
-	socket 0 :  2240470.0000 uJ
+	socket 0 :  23896774.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 41539.9610 us
+Begin : Fri Jan 26 15:23:44 2024
+Duration : 311508.3900 us
 -------------------------------
 PKG :
-	socket 0 :  2327852.0000 uJ
+	socket 0 :  22141342.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 43110.0150 us
+Begin : Fri Jan 26 15:23:44 2024
+Duration : 286890.1830 us
 -------------------------------
 PKG :
-	socket 0 :  2387068.0000 uJ
+	socket 0 :  20762461.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 43512.6970 us
+Begin : Fri Jan 26 15:23:44 2024
+Duration : 337630.2860 us
 -------------------------------
 PKG :
-	socket 0 :  2353836.0000 uJ
+	socket 0 :  24687872.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 46353.7570 us
+Begin : Fri Jan 26 15:23:45 2024
+Duration : 339201.7850 us
 -------------------------------
 PKG :
-	socket 0 :  2594181.0000 uJ
+	socket 0 :  24991780.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 39209.4230 us
+Begin : Fri Jan 26 15:23:45 2024
+Duration : 312236.7400 us
 -------------------------------
 PKG :
-	socket 0 :  2119077.0000 uJ
+	socket 0 :  24517180.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 39892.9860 us
+Begin : Fri Jan 26 15:23:45 2024
+Duration : 326853.2560 us
 -------------------------------
 PKG :
-	socket 0 :  2104414.0000 uJ
+	socket 0 :  24232664.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 43956.6490 us
+Begin : Fri Jan 26 15:23:46 2024
+Duration : 304164.6270 us
 -------------------------------
 PKG :
-	socket 0 :  2459849.0000 uJ
+	socket 0 :  21976692.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 42241.6420 us
+Begin : Fri Jan 26 15:23:46 2024
+Duration : 307705.8980 us
 -------------------------------
 PKG :
-	socket 0 :  2397322.0000 uJ
+	socket 0 :  24401479.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 45176.3230 us
+Begin : Fri Jan 26 15:23:46 2024
+Duration : 303840.0170 us
 -------------------------------
 PKG :
-	socket 0 :  2588657.0000 uJ
+	socket 0 :  22646595.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 45380.5630 us
+Begin : Fri Jan 26 15:23:47 2024
+Duration : 450229.1990 us
 -------------------------------
 PKG :
-	socket 0 :  2543692.0000 uJ
+	socket 0 :  31609876.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 47883.6720 us
+Begin : Fri Jan 26 15:23:47 2024
+Duration : 320109.5350 us
 -------------------------------
 PKG :
-	socket 0 :  2557622.0000 uJ
+	socket 0 :  22759993.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 44743.4410 us
+Begin : Fri Jan 26 15:23:47 2024
+Duration : 348052.5400 us
 -------------------------------
 PKG :
-	socket 0 :  2454387.0000 uJ
+	socket 0 :  26035534.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 44165.4700 us
+Begin : Fri Jan 26 15:23:48 2024
+Duration : 353133.2480 us
 -------------------------------
 PKG :
-	socket 0 :  2510338.0000 uJ
+	socket 0 :  25271261.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 45534.7930 us
+Begin : Fri Jan 26 15:23:48 2024
+Duration : 330474.3120 us
 -------------------------------
 PKG :
-	socket 0 :  2601779.0000 uJ
+	socket 0 :  24187180.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 42197.8410 us
+Begin : Fri Jan 26 15:23:48 2024
+Duration : 294905.9840 us
 -------------------------------
 PKG :
-	socket 0 :  2334444.0000 uJ
+	socket 0 :  21552703.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 37645.0480 us
+Begin : Fri Jan 26 15:23:49 2024
+Duration : 312348.9140 us
 -------------------------------
 PKG :
-	socket 0 :  2195336.0000 uJ
+	socket 0 :  22960086.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 44313.4800 us
+Begin : Fri Jan 26 15:23:49 2024
+Duration : 292010.9340 us
 -------------------------------
 PKG :
-	socket 0 :  2525046.0000 uJ
+	socket 0 :  20816398.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:49 2024
-Duration : 42125.5820 us
+Begin : Fri Jan 26 15:23:49 2024
+Duration : 362582.1240 us
 -------------------------------
 PKG :
-	socket 0 :  2420011.0000 uJ
+	socket 0 :  25408812.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:50 2024
-Duration : 42106.2130 us
+Begin : Fri Jan 26 15:23:50 2024
+Duration : 314956.1410 us
 -------------------------------
 PKG :
-	socket 0 :  2374144.0000 uJ
+	socket 0 :  22433639.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:50 2024
-Duration : 46237.3760 us
+Begin : Fri Jan 26 15:23:50 2024
+Duration : 298047.4620 us
 -------------------------------
 PKG :
-	socket 0 :  2486001.0000 uJ
+	socket 0 :  22055943.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:50 2024
-Duration : 43618.6870 us
+Begin : Fri Jan 26 15:23:50 2024
+Duration : 342264.9170 us
 -------------------------------
 PKG :
-	socket 0 :  2444148.0000 uJ
+	socket 0 :  23216634.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:50 2024
-Duration : 47799.7120 us
+Begin : Fri Jan 26 15:23:51 2024
+Duration : 309442.7180 us
 -------------------------------
 PKG :
-	socket 0 :  2614474.0000 uJ
+	socket 0 :  22974886.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:50 2024
-Duration : 47007.6090 us
+Begin : Fri Jan 26 15:23:51 2024
+Duration : 311134.6100 us
 -------------------------------
 PKG :
-	socket 0 :  2578007.0000 uJ
+	socket 0 :  23141625.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:50 2024
-Duration : 41301.4480 us
+Begin : Fri Jan 26 15:23:51 2024
+Duration : 298075.3390 us
 -------------------------------
 PKG :
-	socket 0 :  2389952.0000 uJ
+	socket 0 :  23276537.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ
 -------------------------------
 Label : run_java
-Begin : Fri Jan 26 12:45:50 2024
-Duration : 41366.9600 us
+Begin : Fri Jan 26 15:23:52 2024
+Duration : 305436.7990 us
 -------------------------------
 PKG :
-	socket 0 :  2327471.0000 uJ
--------------------------------
-DRAM :
-	socket 0 : 0 uJ
--------------------------------
-Label : run_java
-Begin : Fri Jan 26 12:45:50 2024
-Duration : 41823.4110 us
--------------------------------
-PKG :
-	socket 0 :  2369384.0000 uJ
+	socket 0 :  21830597.0000 uJ
 -------------------------------
 DRAM :
 	socket 0 : 0 uJ

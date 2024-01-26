@@ -1,24 +1,88 @@
-Median of sieve in C: 149101.0
-Median of sieve in Java: 2370147.0
-Median of sieve in Python: 1288095.0
-Median of removedupl in C: 177573.0
-Median of removedupl in Java: 2214714.0
-Median of removedupl in Python: 1225416.0
-Median of qsort in C: 184759.0
-Median of qsort in Java: 2234168.0
-Median of qsort in Python: 1244992.0
-Median of nqueens in C: 187566.0
-Median of nqueens in Java: 2215217.0
-Median of nqueens in Python: 801686.0
-Median of matrixmult in C: 179297.0
-Median of matrixmult in Java: 2211235.0
-Median of matrixmult in Python: 10483970.0
-Median of graphconstruction in C: 165732.0
-Median of graphconstruction in Java: 5944166.0
-Median of graphconstruction in Python: 863145.0
-Median of dijkstra in C: 185583.0
-Median of dijkstra in Java: 6080893.0
-Median of dijkstra in Python: 918821.0
-Median of fib in C: 132196.0
-Median of fib in Java: 2146236.0
-Median of fib in Python: 810550.0
+sieve
+sieve Energy in C Median: 4995736.0 uJ Average: 5193684.97 uJ
+sieve Time in C Median: 121162.0965 us Average: 122097.37742 us
+
+sieve Energy in Java: 24037819.5 uJ Average: 24226938.5 uJ
+sieve Time in Java: 325935.4765 us Average: 330630.29409 us
+
+sieve Energy in Python: 6711979.0uJ Average: 6831050.7 uJ
+sieve Time in Python: 159883.036 us Average: 161377.50865 us
+
+
+removedupl
+removedupl Energy in C Median: 105075.0 uJ Average: 107274.57 uJ
+removedupl Time in C Median: 2986.9945 us Average: 2885.2239600000007 us
+
+removedupl Energy in Java: 1609337.5 uJ Average: 1674240.95 uJ
+removedupl Time in Java: 37798.361000000004 us Average: 38187.648219999995 us
+
+removedupl Energy in Python: 838961.5uJ Average: 882249.62 uJ
+removedupl Time in Python: 22624.244 us Average: 22365.08645 us
+
+
+qsort
+qsort Energy in C Median: 132347.5 uJ Average: 146309.56 uJ
+qsort Time in C Median: 3200.679 us Average: 3339.825199999999 us
+
+qsort Energy in Java: 1613838.5 uJ Average: 1673381.31 uJ
+qsort Time in Java: 38228.36 us Average: 38768.66186 us
+
+qsort Energy in Python: 817821.0uJ Average: 848761.79 uJ
+qsort Time in Python: 22849.939 us Average: 22413.871789999994 us
+
+
+nqueens
+nqueens Energy in C Median: 112878.5 uJ Average: 126088.61 uJ
+nqueens Time in C Median: 2922.7045 us Average: 2889.5628899999997 us
+
+nqueens Energy in Java: 1773788.0 uJ Average: 1803752.7 uJ
+nqueens Time in Java: 40104.878500000006 us Average: 40286.297470000005 us
+
+nqueens Energy in Python: 673877.0uJ Average: 711540.65 uJ
+nqueens Time in Python: 17272.3105 us Average: 17132.43168 us
+
+
+matrixmult
+matrixmult Energy in C Median: 928350.0 uJ Average: 961704.26 uJ
+matrixmult Time in C Median: 22160.8575 us Average: 22040.530749999998 us
+
+matrixmult Energy in Java: 2795212.0 uJ Average: 2840786.32 uJ
+matrixmult Time in Java: 60667.2645 us Average: 61444.08384 us
+
+matrixmult Energy in Python: 33477074.0uJ Average: 34034079.0 uJ
+matrixmult Time in Python: 655083.6485 us Average: 656441.8886400001 us
+
+
+graphconstruction
+graphconstruction Energy in C Median: 180357.5 uJ Average: 207492.63 uJ
+graphconstruction Time in C Median: 4568.452499999999 us Average: 4861.34085 us
+
+graphconstruction Energy in Java: 4471387.0 uJ Average: 4511625.06 uJ
+graphconstruction Time in Java: 81149.7415 us Average: 81405.61583999998 us
+
+graphconstruction Energy in Python: 3188464.5uJ Average: 3247816.64 uJ
+graphconstruction Time in Python: 70473.7015 us Average: 70402.65970999999 us
+
+
+dijkstra
+dijkstra Energy in C Median: 10024758.0 uJ Average: 10671752.81 uJ
+dijkstra Time in C Median: 228733.381 us Average: 229730.69777 us
+
+dijkstra Energy in Java: 4555222.5 uJ Average: 4648600.25 uJ
+dijkstra Time in Java: 90098.6805 us Average: 89936.13804000002 us
+
+dijkstra Energy in Python: 1954481.5uJ Average: 2105095.59 uJ
+dijkstra Time in Python: 46434.926999999996 us Average: 46996.94409999999 us
+
+
+fib
+fib Energy in C Median: 2710385.5 uJ Average: 2778284.2 uJ
+fib Time in C Median: 62472.087 us Average: 62591.095429999994 us
+
+fib Energy in Java: 4268708.5 uJ Average: 4385653.49 uJ
+fib Time in Java: 97569.3945 us Average: 97792.0244 us
+
+fib Energy in Python: 105955451.0uJ Average: 106198807.63 uJ
+fib Time in Python: 2387021.4745 us Average: 2391647.08954 us
+
+

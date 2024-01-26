@@ -29,7 +29,7 @@ void SieveOfErathosthenes(int n){
 }
 
 int main(int argc, char *argv[]) {
-    SieveOfErathosthenes(10);
+    SieveOfErathosthenes(1000000);
 
     return 0;
 }

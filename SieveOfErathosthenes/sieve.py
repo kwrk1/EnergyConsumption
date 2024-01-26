@@ -16,7 +16,7 @@ def SieveOfErathosthenes(n: int):
             print(p)
 
 def main():
-    SieveOfErathosthenes(100)
+    SieveOfErathosthenes(1000000)
 
 if __name__ == "__main__":
     main()

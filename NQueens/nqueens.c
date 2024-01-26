@@ -1,7 +1,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-#define N 4
+#define N 8
 
 void printSolution(int board[N][N]){
     for (int i = 0; i < N; i++) {
@@ -57,10 +57,14 @@ bool solveNQ(int board[N][N], int col){
 
 
 int main(int argc, char *argv[]) {
-    int board[N][N] = { { 0, 0, 0, 0 },
-                        { 0, 0, 0, 0 },
-                        { 0, 0, 0, 0 },
-                        { 0, 0, 0, 0 } };
+    int board[N][N] = { { 0, 0, 0, 0, 0, 0, 0, 0 },
+                        { 0, 0, 0, 0, 0, 0, 0, 0 },
+                        { 0, 0, 0, 0, 0, 0, 0, 0 },
+                        { 0, 0, 0, 0, 0, 0, 0, 0 },
+                        { 0, 0, 0, 0, 0, 0, 0, 0 },
+                        { 0, 0, 0, 0, 0, 0, 0, 0 },
+                        { 0, 0, 0, 0, 0, 0, 0, 0 },
+                        { 0, 0, 0, 0, 0, 0, 0, 0 },};
  
     if (solveNQ(board, 0) == false) {
         printf("Solution does not exist");

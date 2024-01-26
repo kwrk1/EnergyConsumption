@@ -8,6 +8,6 @@ int fib(int n){
 }
 
 int main(int argc, char *argv[]) {
-    printf("%d", fib(6));
+    printf("%d", fib(35));
     return 0;
 }

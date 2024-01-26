@@ -9,6 +9,6 @@ public class fib {
 	public static void main(String[] args){
         
         fib fib = new fib();
-		System.out.println(fib.fibonacci(6));	
+		System.out.println(fib.fibonacci(35));	
 	}
 }
