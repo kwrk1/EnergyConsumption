@@ -1,8 +1,7 @@
-import os
-import subprocess
 from typing import List
-
 import pyRAPL
+import subprocess
+import os
 
 pyRAPL.setup()
 
@@ -47,10 +46,10 @@ def run_c(folder, name):
 #energy cost varieren häufig vllt 100 mal messen?
 #folder, names für alle in dict speichern
 def main():
-    folder = "graph_dijkstra"
-    name = "dijkstra"
-    compile_run_c(folder, name)
-    compile_run_java(folder, name)
+    folder = "Fibonacci"
+    name = "fib"
+    run_c(folder, name)
+    run_java(folder, name)
     run_py(folder, name)
 
 if __name__ == "__main__":
