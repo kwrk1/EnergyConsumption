@@ -51,7 +51,7 @@ void addEdges(struct Graph *graph, int node_id, int max_degree, int max_weight)
         return;
     } else if (graph->nodes[node_id].neighbor_count < max_degree)
     {
-        for (int i = 0; i < 10; i++) 
+        for (int i = 0; i < max_degree; i++) 
         {
             int rand_node_id = randInRange(0, graph->node_count - 1);
             
@@ -120,9 +120,12 @@ Graph* random_graph(int node_count, int max_degree, int max_weight)
     // add random edges
     for (int i = 0; i < node_count; i++) 
     {
-        if (randInRange(1, 2) == 2)
+        for(int j = 0; j < max_degree; j++)
         {
-            addEdges(graph, i, max_degree, max_weight);
+            if (randInRange(1, 2) == 2)
+            {
+                addEdges(graph, i, max_degree, max_weight);
+            }
         }
     }
 
@@ -130,28 +133,28 @@ Graph* random_graph(int node_count, int max_degree, int max_weight)
 }
 
 
-// int main(int argc, char *argv[]) 
-// {
-//     for (int i = 0; i < 10; i++) 
-//     {
-//         printf("%d\n", randInRange(1,2));
-//     }
+// int main(int argc, char *argv[]) {
+//     //  for (int i = 0; i < 10; i++) 
+//     //  {
+//     //      printf("%d\n", randInRange(1,2));
+//     //  }
 
-//     int x = 2000000;
-//     struct Graph* graph = random_graph(10, 3, 20);
+//      int x = 2000000;
+//      int node_count = 1000;
+//      struct Graph* graph = random_graph(node_count, 20, 20);
     
-//     printf("%d\n", graph->node_count);
-//     for (int i = 0; i < 10; i++)
-//     {   
-//         printf("%d\n", graph->nodes[i].node_id);
-//         for (int j = 0; j < graph->nodes[i].neighbor_count; j++)
-//         {
-//             printf("%d, %d\n", graph->nodes[i].neighbor[j].end_node, graph->nodes[i].neighbor[j].weight);
-//         }
-//     }
-//     // length of int
-//     //int length = snprintf( NULL, 0, "%d", x );
+//     //  printf("%d\n", graph->node_count);
+//     //  for (int i = 0; i < node_count; i++)
+//     //  {   
+//     //      printf("%d\n", graph->nodes[i].node_id);
+//     //      for (int j = 0; j < graph->nodes[i].neighbor_count; j++)
+//     //      {
+//     //          printf("%d, %d\n", graph->nodes[i].neighbor[j].end_node, graph->nodes[i].neighbor[j].weight);
+//     //      }
+//     //  }
+//      // length of int
+//      //int length = snprintf( NULL, 0, "%d", x );
 
-//     //printf("%ld, %d", sizeof(2000000000000000), length);
-//     return 0;
+//      //printf("%ld, %d", sizeof(2000000000000000), length);
+//      return 0;
 // }

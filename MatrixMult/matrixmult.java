@@ -1,3 +1,5 @@
+import java.util.concurrent.ThreadLocalRandom;
+
 public class matrixmult {
 
 
@@ -33,6 +35,42 @@ public class matrixmult {
         
     }
 
+    public static int[][] fill_matrix(int[][] matrix, int mrow, int mcol)
+    {
+        for (int i = 0; i < mrow; i++)
+        {
+            for (int j = 0; j < mcol; j++)
+            {
+                matrix[i][j] = ThreadLocalRandom.current().nextInt(0, 1000 + 1);
+            }
+        }
+
+        return matrix;
+    }
+
+    public static int[] make_col(int col_len)
+    {
+        int[] col = new int[col_len];
+
+        for (int j = 0; j < col_len; j++)
+            {
+                col[j] = ThreadLocalRandom.current().nextInt(0, 1000 + 1);
+            }
+        return col;
+    }
+
+    public static int[][] make_matrix(int mrow, int mcol)
+    {
+        int[][] m_one = new int[mrow][mcol];
+        int[] m_one_col = new int[mcol];
+
+        for (int i = 0; i < mrow; i++)
+        {
+            m_one[i] = make_col(mcol);
+        }
+        
+        return m_one;
+    }
 
     public static void main(String[] args){
         
@@ -49,13 +87,21 @@ public class matrixmult {
             {2, 3, 4},
             {2, 3, 4},
         };
+        int[][] test = make_matrix(700, 500);
+        // for (int i = 0; i < test.length; i++) {
+        //     for (int j = 0; j < test[0].length; j++) {
+        //         System.out.print(test[i][j] + " ");
+        //     }
+        //     System.out.println(" ");
+        // }
+        int[][] test2 = make_matrix(500, 600);
 
-        int result_matrix[][] = matrix_mult(m_one, m_two);
+        int result_matrix[][] = matrix_mult(test, test2);
 
-        for (int i = 0; i < result_matrix.length; i++) {
-            for (int j = 0; j < result_matrix[0].length; j++) {
-                System.out.println(result_matrix[i][j]);
-            }
-        }
+        // for (int i = 0; i < result_matrix.length; i++) {
+        //     for (int j = 0; j < result_matrix[0].length; j++) {
+        //         System.out.println(result_matrix[i][j]);
+        //     }
+        // }
     }
 }

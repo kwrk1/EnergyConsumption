@@ -104,23 +104,23 @@ DijkstraNode* dijkstra(Graph* graph, int max_weight)
 
 int main(int argc, char *argv[])
 {
-    int node_count = 15;
-    Graph* graph = random_graph(node_count, 4, 20);
-    printf("%d\n", graph->node_count);
-    for (int i = 0; i < 10; i++)
-    {   
-        printf("%d\n", graph->nodes[i].node_id);
-        for (int j = 0; j < graph->nodes[i].neighbor_count; j++)
-        {
-            printf("%d, %d\n", graph->nodes[i].neighbor[j].end_node, graph->nodes[i].neighbor[j].weight);
-        }
-    }
+    int node_count = 10000;
+    Graph* graph = random_graph(node_count, 3, 20);
+    // printf("%d\n", graph->node_count);
+    // for (int i = 0; i < 10; i++)
+    // {   
+    //     printf("%d\n", graph->nodes[i].node_id);
+    //     for (int j = 0; j < graph->nodes[i].neighbor_count; j++)
+    //     {
+    //         printf("%d, %d\n", graph->nodes[i].neighbor[j].end_node, graph->nodes[i].neighbor[j].weight);
+    //     }
+    // }
     DijkstraNode* results = dijkstra(graph, 20);
     
-    for(int i = 0; i < node_count; i++)
-    {
-        printf("Node %d, prev_node %d, min_dist %d\n", i, results[i].prev_node_id, results[i].min_dist);       
-    }
+    // for(int i = 0; i < node_count; i++)
+    // {
+    //     printf("Node %d, prev_node %d, min_dist %d\n", i, results[i].prev_node_id, results[i].min_dist);       
+    // }
 
     return 0;
 }

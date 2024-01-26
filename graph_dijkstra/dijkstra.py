@@ -1,5 +1,6 @@
 from graphconstruction import random_graph
 
+
 def dijkstra (graph, max_weight):
     
     #setup
@@ -43,12 +44,13 @@ def compare_dist(traversal_list, dist_dict, max_weight):
         
 def main():
     max_weight = 20
+    node_count = 1000
     
-    graph = random_graph(10, 4, max_weight)
-    print(graph)
+    graph = random_graph(node_count, 3, max_weight)
+   # print(graph)
     
     dijkstra_result = dijkstra(graph=graph, max_weight=max_weight)
-    print(dijkstra_result)
+    #print(dijkstra_result)
     
     return
 

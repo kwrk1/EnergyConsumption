@@ -76,6 +76,10 @@ int int_alloc_twodim(IntMatrix *self, unsigned int row_size, unsigned int col_si
     return 0;
 }
 
+int randInRange(int min, int max)
+{
+  return min + (int) (rand() / (double) (RAND_MAX) * (max - min + 1));
+}
 
 IntMatrix* matrix_mult(IntMatrix *m_one, IntMatrix *m_two) {
     int m_one_rows = m_one->cap;
@@ -107,38 +111,39 @@ IntMatrix* matrix_mult(IntMatrix *m_one, IntMatrix *m_two) {
 }
 
 // main
-int main(int argc, char *argv[]) {
+IntMatrix* main(int argc, char *argv[]) {
 
     //init mat
     IntMatrix* mat_one = (IntMatrix*) malloc(sizeof(IntMatrix));
-    int_alloc_twodim(mat_one, 3, 5);
+    int_alloc_twodim(mat_one, 700, 500);
 
     for (int i = 0; i < mat_one->cap; i++) {
         for (int j = 0; j < mat_one->matrix_row[0]->cap; j++) {
             
-            mat_one->matrix_row[i]->matrix_col[j] = j + 2;
+            mat_one->matrix_row[i]->matrix_col[j] = randInRange(0, 1000);
         }
     }
 
     //ínit mat
     IntMatrix* mat_two = (IntMatrix*) malloc(sizeof(IntMatrix));
-    int_alloc_twodim(mat_two, 5, 3);
+    int_alloc_twodim(mat_two, 500, 600);
 
     for (int i = 0; i < mat_two->cap; i++) {
         for (int j = 0; j < mat_two->matrix_row[0]->cap; j++) {
             
-            mat_two->matrix_row[i]->matrix_col[j] = j + 2;
+            mat_two->matrix_row[i]->matrix_col[j] = randInRange(0, 1000);
         }
     }
 
     // result matrix
     IntMatrix* result_matrix = matrix_mult(mat_one, mat_two);
-    for (int i = 0; i < result_matrix->cap; i++) {
-        for (int j = 0; j < result_matrix->matrix_row[0]->cap; j++) {
+    // for (int i = 0; i < result_matrix->cap; i++) {
+    //     for (int j = 0; j < result_matrix->matrix_row[0]->cap; j++) {
             
-            printf("%d\n", result_matrix->matrix_row[i]->matrix_col[j]);
-        }
-    }
+    //         printf("%d, ", result_matrix->matrix_row[i]->matrix_col[j]);
+    //     }
+    //     printf("\n");
+    // }
     
-    return 0;
+    return result_matrix;
 }

@@ -98,27 +98,29 @@ public class dijkstra {
 
 
     public static void main(String[] args) {
-        graphconstruction.Graph graph = graphconstruction.random_graph(10, 3, 20);
-        for (int i = 0; i < 10; i++) {
-            System.out.println("cur_node " + i);
-            for (int j = 0; j < graph.graph.get(Integer.toString(i)).size(); j++) {
-                graphconstruction.Edge cur_edge = graph.graph.get(Integer.toString(i)).get(j);
-                System.out.print(cur_edge.node1 + " " + cur_edge.node2 + " " + cur_edge.weight);
-                System.out.println("");
-            }
-        }
+        int node_count = 1000;
+        
+        graphconstruction.Graph graph = graphconstruction.random_graph(node_count, 3, 20);
+        // for (int i = 0; i < 10; i++) {
+        //     System.out.println("cur_node " + i);
+        //     for (int j = 0; j < graph.graph.get(Integer.toString(i)).size(); j++) {
+        //         graphconstruction.Edge cur_edge = graph.graph.get(Integer.toString(i)).get(j);
+        //         System.out.print(cur_edge.node1 + " " + cur_edge.node2 + " " + cur_edge.weight);
+        //         System.out.println("");
+        //     }
+        // }
 
         HashMap<String, DijkstraNode> result = dijkstra(graph, 20);
 
-        for (int i = 0; i < 10; i++) {
-            System.out.println("cur_node " + i);
+        // for (int i = 0; i < node_count; i++) {
+        //     System.out.println("cur_node " + i);
 
-                DijkstraNode curnode = result.get(Integer.toString(i));
+        //         DijkstraNode curnode = result.get(Integer.toString(i));
 
-                System.out.print(curnode.id + " " + curnode.min_dist + " " + curnode.prev_node_id);
-                System.out.println("");
+        //         System.out.print(curnode.id + " " + curnode.min_dist + " " + curnode.prev_node_id);
+        //         System.out.println("");
             
-        }
+        // }
 
         //System.out.println(test_node + " " + test_node.id + " " + test_node.prev_node + " ");
     }

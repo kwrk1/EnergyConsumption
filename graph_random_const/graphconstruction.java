@@ -53,9 +53,9 @@ class graphconstruction {
             if (this.graph.get(node).size() == max_degree) {
                 return;
             } else if (this.graph.get(node).size() < max_degree) {
-                System.out.println(this.graph.get(node).size() + " ");
+                //System.out.println(this.graph.get(node).size() + " ");
                             
-                for (int i = 0; i < 10; i++) 
+                for (int i = 0; i < max_degree; i++) 
                 {
                     String rand_node = Integer.toString(
                         (ThreadLocalRandom.current().nextInt(0, this.graph.size())));
@@ -69,7 +69,7 @@ class graphconstruction {
                         check_valid_neighbors(this.graph.get(node), rand_node)
                         ) 
                         { 
-                            System.out.println(this.graph.get(node).size() + " " + this.graph.get(rand_node).size() );
+                            //System.out.println(this.graph.get(node).size() + " " + this.graph.get(rand_node).size() );
                             
                             int rand_weight = ThreadLocalRandom.current().nextInt(0, max_weight + 1);
                             Edge new_edge = new Edge(node, rand_node, rand_weight);
@@ -130,8 +130,11 @@ class graphconstruction {
         }
         
         for (int i = 0; i < node_count; i++) {
-            if (Math.random() >= 0.5f) {
-                graph.addEdge(Integer.toString(i), max_degree, max_weight);
+            for (int j = 0; j < max_degree; j++)
+            {
+                if (Math.random() >= 0.5f) {
+                    graph.addEdge(Integer.toString(i), max_degree, max_weight);
+                }
             }
         }
 
@@ -140,15 +143,16 @@ class graphconstruction {
 
     // jeder knoten hat den ganzen graph drin lol oops fuck
     public static void main(String[] args){
-        Graph graph = random_graph(10, 3, 20);
-        for (int i = 0; i < 10; i++) {
-            System.out.println("cur_node " + i);
-            for (int j = 0; j < graph.graph.get(Integer.toString(i)).size(); j++) {
-                Edge cur_edge = graph.graph.get(Integer.toString(i)).get(j);
-                System.out.print(cur_edge.node1 + " " + cur_edge.node2 + " " + cur_edge.weight);
-                System.out.println("");
-            }
-        }
+        int node_count = 1000;
+        Graph graph = random_graph(node_count, 20 , 20);
+        // for (int i = 0; i < node_count; i++) {
+        //     System.out.println("cur_node " + i);
+        //     for (int j = 0; j < graph.graph.get(Integer.toString(i)).size(); j++) {
+        //         Edge cur_edge = graph.graph.get(Integer.toString(i)).get(j);
+        //         System.out.print(cur_edge.node1 + " " + cur_edge.node2 + " " + cur_edge.weight);
+        //         System.out.println("");
+        //     }
+        // }
         // prints graph
         //graph.graph.forEach((key, value) -> System.out.println(key + " " + value));
        

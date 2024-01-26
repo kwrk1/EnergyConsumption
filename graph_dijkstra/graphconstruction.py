@@ -35,8 +35,9 @@ def random_graph(node_count, max_degree, max_wght):
     
     for node in graph:
         # coin toss to determine whether an edge should be added
-        if rand.random() >= 0.5:
-            graph = add_edge(graph, node, max_degree, max_wght)
+        for i in range(0, max_degree):
+            if rand.random() >= 0.2:
+                graph = add_edge(graph, node, max_degree, max_wght)
     
     # potential edge removal algorithm in order to make graphs more interesting and not include a full loop every time (potentially removes connectedness property)
     #graph = remove_edges(graph)
@@ -48,12 +49,13 @@ def add_edge(graph, node, max_degree, max_wght):
     
     # if max degree, return
     if len(graph[node]) == max_degree:
+        #print(len(graph[node]))
         return graph
     
     # if edge can be added, check if there are potential neighbors
     elif len(graph[node]) < max_degree:
-        
-        for i in range(0, 10):
+        #print(max_degree)
+        for i in range(0, max_degree):
             rand_node = str(rand.randrange(0, len(graph)))
             
             # if number of neighbors is alrdy max, continue
@@ -133,8 +135,8 @@ def print_graph(graph):
         print(graph[node])
     
 def main():
-    graph = random_graph(10, 5, 20)
-    print_graph(graph)
+    graph = random_graph(1000, 20, 20)
+    #print_graph(graph)
     return
 
 if __name__ == "__main__":
