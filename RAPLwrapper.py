@@ -1,7 +1,8 @@
-from typing import List
-import pyRAPL
-import subprocess
 import os
+import subprocess
+from typing import List
+
+import pyRAPL
 
 pyRAPL.setup()
 
