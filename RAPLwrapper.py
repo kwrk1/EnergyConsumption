@@ -41,6 +41,17 @@ def run_c(folder, name):
 #energy cost varieren häufig vllt 100 mal messen?
 #folder, names für alle in dict speichern
 def main():
+    test_dict = {
+        'SieveOfErathosthenes'  : 'sieve',
+        'RemoveDuplicates'      : 'removedupl',
+        'Quicksort'             : 'qsort',
+        'NQueens'               : 'nqueens',
+        'MatrixMult'            : 'matrixmult',
+        'graph_random_const'    : 'graphconstruction',
+        'graph_dijkstra'        : 'dijkstra',
+        'Fibonacci'             : 'fib',
+    }
+    
     folder = "graph_random_const"
     name = "graphconstuction"
     compile_run_c(folder, name)
