@@ -115,7 +115,7 @@ IntMatrix* main(int argc, char *argv[]) {
 
     //init mat
     IntMatrix* mat_one = (IntMatrix*) malloc(sizeof(IntMatrix));
-    int_alloc_twodim(mat_one, 700, 500);
+    int_alloc_twodim(mat_one, 100, 300);
 
     for (int i = 0; i < mat_one->cap; i++) {
         for (int j = 0; j < mat_one->matrix_row[0]->cap; j++) {
@@ -126,7 +126,7 @@ IntMatrix* main(int argc, char *argv[]) {
 
     //ínit mat
     IntMatrix* mat_two = (IntMatrix*) malloc(sizeof(IntMatrix));
-    int_alloc_twodim(mat_two, 500, 600);
+    int_alloc_twodim(mat_two, 300, 150);
 
     for (int i = 0; i < mat_two->cap; i++) {
         for (int j = 0; j < mat_two->matrix_row[0]->cap; j++) {

@@ -87,14 +87,14 @@ public class matrixmult {
             {2, 3, 4},
             {2, 3, 4},
         };
-        int[][] test = make_matrix(700, 500);
+        int[][] test = make_matrix(100, 300);
         // for (int i = 0; i < test.length; i++) {
         //     for (int j = 0; j < test[0].length; j++) {
         //         System.out.print(test[i][j] + " ");
         //     }
         //     System.out.println(" ");
         // }
-        int[][] test2 = make_matrix(500, 600);
+        int[][] test2 = make_matrix(300, 150);
 
         int result_matrix[][] = matrix_mult(test, test2);
 

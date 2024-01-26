@@ -45,7 +45,7 @@ def fill_matrix(matrix):
     return matrix
 
 def main():
-    m_list = make_matrices(700, 500, 600)
+    m_list = make_matrices(100, 300, 150)
     # print(m_list[0])
     # print("\n")
     # print(m_list[1])
