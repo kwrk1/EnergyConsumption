@@ -1,4 +1,4 @@
-from graph_random_const.graphconstruction import random_graph
+from graphconstruction import random_graph
 
 def dijkstra (graph, max_weight):
     

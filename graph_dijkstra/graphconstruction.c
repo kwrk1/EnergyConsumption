@@ -130,27 +130,28 @@ Graph* random_graph(int node_count, int max_degree, int max_weight)
 }
 
 
-int main(int argc, char *argv[]) {
-     for (int i = 0; i < 10; i++) 
-     {
-         printf("%d\n", randInRange(1,2));
-     }
+// int main(int argc, char *argv[]) 
+// {
+//     for (int i = 0; i < 10; i++) 
+//     {
+//         printf("%d\n", randInRange(1,2));
+//     }
 
-     int x = 2000000;
-     struct Graph* graph = random_graph(10, 3, 20);
+//     int x = 2000000;
+//     struct Graph* graph = random_graph(10, 3, 20);
     
-     printf("%d\n", graph->node_count);
-     for (int i = 0; i < 10; i++)
-     {   
-         printf("%d\n", graph->nodes[i].node_id);
-         for (int j = 0; j < graph->nodes[i].neighbor_count; j++)
-         {
-             printf("%d, %d\n", graph->nodes[i].neighbor[j].end_node, graph->nodes[i].neighbor[j].weight);
-         }
-     }
-     // length of int
-     //int length = snprintf( NULL, 0, "%d", x );
+//     printf("%d\n", graph->node_count);
+//     for (int i = 0; i < 10; i++)
+//     {   
+//         printf("%d\n", graph->nodes[i].node_id);
+//         for (int j = 0; j < graph->nodes[i].neighbor_count; j++)
+//         {
+//             printf("%d, %d\n", graph->nodes[i].neighbor[j].end_node, graph->nodes[i].neighbor[j].weight);
+//         }
+//     }
+//     // length of int
+//     //int length = snprintf( NULL, 0, "%d", x );
 
-     //printf("%ld, %d", sizeof(2000000000000000), length);
-     return 0;
-}
+//     //printf("%ld, %d", sizeof(2000000000000000), length);
+//     return 0;
+// }
