@@ -32,7 +32,7 @@ bool isSafe(int board[N][N], int row, int col){
 }
  
 
-bool solveNQUtil(int board[N][N], int col){
+bool solveNQ(int board[N][N], int col){
 
     if (col >= N){
         return true;
@@ -44,7 +44,7 @@ bool solveNQUtil(int board[N][N], int col){
 
             board[i][col] = 1;
  
-            if (solveNQUtil(board, col + 1))
+            if (solveNQ(board, col + 1))
                 return true;
 
             board[i][col] = 0;

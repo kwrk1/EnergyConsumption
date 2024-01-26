@@ -17,12 +17,12 @@ public class nqueens {
                 return false;
  
         // Check upper diagonal on left side
-        for (int i = row, int j = col; i >= 0 && j >= 0; i--, j--)
+        for (int i = row, j = col; i >= 0 && j >= 0; i--, j--)
             if (board[i][j] == 1)
                 return false;
  
         // Check lower diagonal on left side
-        for (int i = row, int j = col; j >= 0 && i < board.length; i++, j--)
+        for (int i = row, j = col; j >= 0 && i < board.length; i++, j--)
             if (board[i][j] == 1)
                 return false;
  
@@ -39,7 +39,7 @@ public class nqueens {
                 if (isSafe(board, i, col)) {  
                     board[i][col] = 1;
      
-                    if (solveNQUtil(board, col + 1) == true)
+                    if (solveNQ(board, col + 1) == true)
                         return true;
 
                     board[i][col] = 0;
@@ -57,10 +57,8 @@ public class nqueens {
         
         if (solveNQ(board, 0) == false) {
             System.out.print("Solution does not exist");
-            return false;
         }
  
         printSolution(board);
-        return true;
     }
 }
